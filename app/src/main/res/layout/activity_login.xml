@@ -8,8 +8,8 @@
     android:orientation="vertical">
 
     <EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Email/Username"
         android:id="@+id/email_edittext"/>
 
@@ -35,6 +35,12 @@
             android:layout_height="wrap_content"
             android:text="sign up"
             android:onClick="signUp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="google sign in"
+            android:onClick="google_signIn"/>
     </LinearLayout>
 
 
